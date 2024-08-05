@@ -1,0 +1,114 @@
+        .fond {
+            background: linear-gradient(0.25turn, #5B96E1, #ebf8e1, #5B96E1);
+            width:100%;
+            max-width: 1477px;
+            height: auto;
+        }
+
+        .fond1 {
+            background: linear-gradient(0.25turn, #6EBD87, #ebf8e1, #6EBD87);
+            width:100%;
+            max-width: 1477px;
+            height: auto;
+        }
+
+        .fond2 {
+            background: linear-gradient(0.25turn, #F74646, #ebf8e1, #F74646);
+            width:100%;
+            max-width: 1477px;
+            height: auto;
+        }
+
+        .fond3 {
+            background: linear-gradient(0.25turn, #FA98D2, #ebf8e1, #FA98D2);
+            width:100%;
+            max-width: 1477px;
+            height: auto;
+        }
+ 
+        .align {
+            text-align: center;
+        }
+
+        .fond_m {
+            background-image: url('imagefond.jpg');
+            background-size : cover;
+            background-attachment : fixed;
+            background-position : center;
+            background-repeat: no-repeat;
+            width:100%;
+            max-width: 1477px;
+            height: auto;
+        }
+        div{
+            display:auto;
+        }
+
+        .pos_m{
+            float : left;
+        }
+        .pos1_m{
+            float:right;
+        }
+    
+        .p1 { padding: 15px; }
+
+        .p2 { 
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .important{
+            font-weight : bold;
+        }
+
+        .erreur{
+            color:red;
+        }
+
+        .g_m {font-weight : bold; text-align: center; font-size: 25px;}
+        .fieldset_m{border-radius : 30px; width:500px; margin:auto; border-width: 3px; border-color: black; background-color: white; }
+        .button_m{border-radius : 10px; height : 50px; width:100px; border-width: 2px; border-color: black; background-color: #D3D3D3; }
+        .button_m:hover {background-color: grey;}
+
+        .button_a{border-radius : 10px; height : 50px; width:130px; border-width: 2px; border-color: black; background-color: #D3D3D3; }
+        .button_a:hover {background-color: grey;}
+        
+        .button_e{border-radius : 30px; height : 60px; width:130px; border-width: 3px; border-color: black; background-color: #D3D3D3; }
+        .button_e:hover {background-color: #6F6C6C;}
+        
+        .button_recherche{border-radius : 20px; height : 60px; width:130px; border-width: 3px; border-color: black; background-color: #D3D3D3; }
+        .button_recherche:hover {border-color: white;}
+
+        .bouton{border-radius : 20px; font-weight : bold; height : 60px; width:170px; font-size: 16px; text-align: center; border-width: 3px; border-color: black; background-color: white; }
+        .bouton:hover {border-color: white; background-color: black; color:white;}
+
+        .invisible {
+            display: none;
+        }
+
+        .sel:checked + .invisible {
+            display: block;
+        }
+
+        .recherche{
+            height : 50px;
+            width : 350px;
+            font-size : 18px;
+            color : black;
+            font-weight : bold;
+        }
+
+        table {
+            width: 50%; /* Largeur totale de la table */
+        }
+        
+        td {
+            padding: 10px; /* Ajoute de l'espace autour du contenu de la cellule */
+            width: 150px; /* Largeur personnalisée pour les cellules */
+        }
+
+        .container {
+            margin: 0 auto; /* Centre la div horizontalement */
+            width: 50%; /* Ajustez la largeur de votre conteneur */
+        }
